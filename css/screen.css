@@ -345,6 +345,26 @@ a:focus {
     white-space: nowrap;
 }
 
+.c-author {}
+
+.c-author__image {
+    border-radius: 100%;
+    margin-bottom: 16px;
+    max-width: 60px;
+}
+
+.c-author__caption {
+    font-size: 24px;
+}
+
+.c-author__name {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 4px;
+}
+
+.c-author__meta {}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
@@ -479,6 +499,7 @@ a:focus {
     .u-5-of-6-bp1 {
         flex-basis: calc((100%/6)*5);
     }
+
 }
 
 @media (min-width: 768px) {
@@ -528,6 +549,10 @@ a:focus {
 
     .u-5-of-6-bp2 {
         flex-basis: calc((100%/6)*5);
+    }
+
+    .u-mb-xl-bp2 {
+        flex-basis: calc(100%/3);
     }
 }
 
